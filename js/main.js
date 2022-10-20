@@ -27,4 +27,4 @@ if (age < 18) {
 }
 // prezzo totale del biglietto con eventuale sconto applicato
 
-console.log('il prezzo del biglietto è:', ticket, '€');
+console.log('il prezzo del biglietto è:', ticket.toFixed (2), '€');
