@@ -2,7 +2,6 @@
 
 const distance = Number(prompt("Inserisci in chilometri la distanza che desideri percorrere"));
 
-
 // chiedere all'utente la sua età
 
 const age = Number(prompt( "Inserisci la tua età"));
@@ -16,7 +15,7 @@ if (distance <= 0 || age <= 0) {
 
 // imporre condizione per cui l'utente non può inserire dei dati non numerici
 
-if ( distance !== Number || age !== Number) {
+if ( distance !== Number || age !== Number ) {
     alert("Attenzione, il dato deve essere numerico. Verrà ricaricata la pagina");
     window.location.reload();
 }
