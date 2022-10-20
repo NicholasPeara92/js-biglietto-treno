@@ -16,7 +16,10 @@ if (distance <= 0 || age <= 0) {
 
 // imporre condizione per cui l'utente non può inserire dei dati non numerici
 
-
+if ( distance !== Number || age !== Number) {
+    alert("Attenzione, il dato deve essere numerico. Verrà ricaricata la pagina");
+    window.location.reload();
+}
 
 // inserire variabile del prezzo base del biglietto
 
